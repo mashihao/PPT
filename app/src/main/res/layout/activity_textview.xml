@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#428BDA"
+        android:text="TextView with match_parent width wrap_content height"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#428BDA"
+        android:text="TextColor red"
+        android:textColor="#C10A26" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#428BDA"
+        android:text="TextView with match_parent width wrap_content height  20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#428BDA"
+        android:padding="20dp"
+        android:text="padding 20dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#428BDA"
+        android:text="margin 20dp"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:background="#428BDA"
+        android:text="Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:text="更多展示 ..."
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:background="#428BDA"
+        android:text="Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line Single Line "
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

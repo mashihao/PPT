@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:textColor="@color/black"
+        android:hint="我是文本框提示文案"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:background="#AFAFAF"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:hint="paddleft 20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:background="#AFAFAF"
+        android:hint="paddtop 20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:background="@drawable/bg_outline_gray"
+        android:hint="paddtop 20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/bg_outline_gray"
+        android:hint="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
