@@ -15,8 +15,7 @@ class 高阶函数 {
 
 
     data class Person(
-        var name: String,
-        var age: Int
+        var name: String, var age: Int
     )
 
 
@@ -51,6 +50,22 @@ class 高阶函数 {
         }
 
         println("new person $person")
+
+
+        IntArray(5, {
+            it + 2
+        }).forEach {
+            println(it)
+        }
+
+        IntArray(5) {
+            it
+        }.forEach {
+            println(it)
+        }
+
+
+        IntArray(5).forEach { println(it) }
     }
 
 }
